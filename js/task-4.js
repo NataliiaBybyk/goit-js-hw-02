@@ -13,7 +13,7 @@ function getShippingCost(country) {
     case 'Jamaica':
       return `Shipping to ${country} will cost ${priceJamaica} credits`;
     default:
-      return 'Sorry, there is no delivery to your country';
+      return `Sorry, there is no delivery to your country`;
   }
 }
 
